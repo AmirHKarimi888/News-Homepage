@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/style/main.css">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="logo"><img src="./src/assets/images/logo.svg" alt="logo"></span>
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+      
+      <span class="links-opener">
+        <img src="./src/assets/images/icon-menu.svg" alt="links-opener" id="linksOpener">
+      </span>
+
+      <div class="sidebar-backdrop">
+        <div class="sidebar">
+          <span class="links-closer">
+            <img src="./src/assets/images/icon-menu-close.svg" alt="links-closer" id="linksCloser">
+          </span>
+          <ul class="sidebar-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="content">
+        <div class="poster"><img src="./src/assets/images/image-web-3-desktop.jpg" id="contentPoster" alt="poster"></div>
+
+        <div class="descr">
+          <span class="content-descr-title">The Bright Future of Web 3.0?</span>
+          <span class="content-descr-text">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+            <a href="#" class="read-more-btn">Read more</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="newsMenu">
+        <div class="newsMenu-title">New</div>
+
+        <ul class="newsMenu-news">
+          <li class="newsMenu-new">
+            <a href="#">
+              <div class="newsMenu-new-title">Hydrogen VS Electric Cars</div>
+              <div class="newsMenu-new-text">Will hydrogen-fueled cars ever catch up to EVs?</div>
+            </a>
+          </li>
+          <li class="newsMenu-new">
+            <a href="#">
+              <div class="newsMenu-new-title">The Downsides of AI Artistry</div>
+              <div class="newsMenu-new-text">What are the possible adverse effects of on-demand AI image generation?</div>
+            </a>
+          </li>
+          <li class="newsMenu-new">
+            <a href="#">
+              <div class="newsMenu-new-title">Is VC Funding Drying Up?</div>
+              <div class="newsMenu-new-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <ul class="footer-items">
+        <li class="footer-item">
+          <a href="#">
+            <span class="footer-item-poster"><img src="./src/assets/images/image-retro-pcs.jpg" alt="poster"></span>
+            <span class="footer-item-content">
+              <div class="footer-item-content-number">01</div>
+              <div class="footer-item-content-title">Reviving Retro PCs</div>
+              <div class="footer-item-content-text">What happens when old PCs are given modern upgrades?</div>
+            </span>
+          </a>
+        </li>
+
+        <li class="footer-item">
+          <a href="#">
+            <span class="footer-item-poster"><img src="./src/assets/images/image-top-laptops.jpg" alt="poster"></span>
+            <span class="footer-item-content">
+              <div class="footer-item-content-number">02</div>
+              <div class="footer-item-content-title">Top 10 Laptops of 2022</div>
+              <div class="footer-item-content-text">Our best picks for various needs and budgets.</div>
+            </span>
+          </a>
+        </li>
+
+        <li class="footer-item">
+          <a href="#">
+            <span class="footer-item-poster"><img src="./src/assets/images/image-gaming-growth.jpg" alt="poster"></span>
+            <span class="footer-item-content">
+              <div class="footer-item-content-number">03</div>
+              <div class="footer-item-content-title">The Growth of Gaming</div>
+              <div class="footer-item-content-text">How the pandemic has sparked fresh opportunities.</div>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="./src/main.js"></script>
+</body>
+</html>

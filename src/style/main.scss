@@ -1,0 +1,62 @@
+@import url(./mobile.css);
+@import url(./tablet.css);
+@import url(./desktop.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: InterExtraBold;
+    src: url(../assets/fonts/static/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterVariableFont;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+$SoftOrange: hsl(35, 77%, 62%);
+$SoftRed: hsl(5, 85%, 63%);
+
+$OffWhite: hsl(36, 100%, 99%);
+$GrayishBlue: hsl(233, 8%, 79%);
+$DarkGrayishBlue: hsl(236, 13%, 42%);
+$VeryDarkBlue: hsl(240, 100%, 5%);
+
+body {
+    font-size: 15px;
+    font-family: InterRegular;
+    color: $DarkGrayishBlue;
+}
+
+@keyframes openToLeft {
+	0% {
+		transform: translateX(300px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes closeToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(300px);
+	}
+}
